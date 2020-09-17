@@ -1,3 +1,0 @@
-[submodule "avr/libraries/debugSerial"]
-	path = avr/libraries/debugSerial
-	url = https://github.com/nerdralph/debugSerial.git
