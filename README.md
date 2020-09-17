@@ -5,6 +5,7 @@ nerdralph writes this core from scratch, with code size and efficiency as the ma
 
 ## Development Status
 v0.3.1 replacement of [debugSerial](https://github.com/nerdralph/debugSerial) by [picoUART] (https://github.com/pcfreak1201/picoUART)
+
 v0.3.0 includes [debugSerial](https://github.com/nerdralph/debugSerial), for basic serial output supporting the most common [Serial.print()](https://www.arduino.cc/reference/en/language/functions/communication/serial/print) data types.
 
 ## Supported Functions
