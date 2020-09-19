@@ -1,5 +1,5 @@
 # picoCore (pcfreak1201)
-Small Arduino/Wiring core for 8-pin tiny AVRs: ATtiny85 series.  Arduino Blink sketch compiled for the ATtiny85 is 64 bytes. Goal (pcfreak1201): bare ATtiny85 core with serial support, but no bootloader (for fast startup without delay).
+Small Arduino/Wiring core for 8-pin tiny AVRs: ATtiny85 series @8MHz internal.  Arduino Blink sketch compiled for the ATtiny85 is 64 bytes. Goal (pcfreak1201): bare ATtiny85 core with serial support, but no bootloader (for fast startup without delay).
 
 [nerdralph](https://github.com/nerdralph) writes this core from scratch, with code size and efficiency as the main goal.  He is making use of AVR assembler code when the code size and efficiency goals cannot be readily attained with C/C++.  Unlike the official AVR core, picoCore has compile-time checking of many arguments.  Calling digitalWrite(42) will cause a compile error with the message, "pin out of range". 
 
