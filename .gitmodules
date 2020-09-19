@@ -1,0 +1,3 @@
+[submodule "avr/0.3.1/libraries/picoUART"]
+	path = avr/0.3.1/libraries/picoUART
+	url = https://github.com/pcfreak1201/picoUART.git
